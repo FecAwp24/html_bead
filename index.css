@@ -1,0 +1,53 @@
+section#intro figure, section#intro p, hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#carousel-print {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    #intro {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    /* .left {
+       flex-direction: column;
+    }
+    
+    .right {
+       float: left;
+       flex-direction: column;
+    } */
+    #content {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+}
+
+.left {
+    width: 45%;
+    text-align: center;
+    float: left;
+}
+
+.right {
+    display: block;
+    width: 45%;
+    float: right;
+}
